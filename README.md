@@ -21,8 +21,7 @@
 ### 第三步
 
 如果你安裝的JRE是第8版，則使用下面的指令來啟動WebGoat，其中Port跟Server網址都可以在這邊作設定，如果不特別設定，Port預設就是8080，而Server網址則是localhost。
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7f4036e6-a707-4c19-9c5a-22209e11f2cb/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172363454-3d24e878-250e-473f-9188-ee55c421307b.png)
 
 如果你安裝的JRE是第9或以上的版本，根據網路上苦主經驗，直接使用上述指令會出現錯誤，但也不用擔心，只要在執行的時候使用下面的語法就可以了：
 
