@@ -21,26 +21,27 @@
 ### 第三步
 
 如果你安裝的JRE是第8版，則使用下面的指令來啟動WebGoat，其中Port跟Server網址都可以在這邊作設定，如果不特別設定，Port預設就是8080，而Server網址則是localhost。
+
 ![image](https://user-images.githubusercontent.com/105283235/172363454-3d24e878-250e-473f-9188-ee55c421307b.png)
 
 如果你安裝的JRE是第9或以上的版本，根據網路上苦主經驗，直接使用上述指令會出現錯誤，但也不用擔心，只要在執行的時候使用下面的語法就可以了：
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/35738042-b829-4667-aec9-ee31dc6f1ff6/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172363599-4b0acc7b-b902-4604-be6f-f08b6ed93b6f.png)
 
 上面兩項指令中的VERSION部分是依看你下載的版本來改字串，例如你如果下載的是目前最新的版本v8.0.0.M21，那你的指令就要寫成：
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c17adb9a-71e9-4b44-a494-915b090fd5e0/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172363656-6233f242-a82d-45ac-8131-fcda29ea738e.png)
 
 我的電腦安裝的是JRE 8，而輸入指令後就會看到畫面如下，告訴你網頁伺服器已經跑起來了！
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b7f1592a-8ffd-43b3-b53b-64654e372a0c/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172363782-efb0f5a5-8570-4c48-816c-1d74ff99130e.png)
 
 ### 第四步
 
 使用瀏覽器，輸入剛剛你所設定的Port及Server網址，如果沒有特別設定的話網址就會長這樣：[http://localhost:8080/WebGoat](http://localhost:8080/WebGoat)
  ，接著就可以看到WebGoat的畫面出現啦！
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a415eeb8-8727-4442-b25c-efc820c3ca81/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172363840-ab30edf0-14be-4da7-b938-366826a2d193.png)
 
 由於WebGoat是專門讓人來練習漏洞的，所以裡面包含的都是漏洞百出的網頁，因此官方也建議在使用WebGoat練習時，最好是把網路中斷，以免有心人士利用，讓使用者反而變成受害者。
 
@@ -50,23 +51,23 @@
 
 首先，我真的很難過我的webgoat一直執行不了QQ
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df673798-0585-4cfd-9413-909fbc215af8/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172364461-98f404a9-00d5-49b8-93ad-3ed463bcbbc7.png)
 
 正在嘗試重新下載jdk以及jre
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a171f154-7fa0-4b96-88c5-c22371613064/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172364410-99a07c13-f9f6-4dba-bee9-dcd4946232c3.png)
 
 並且在嘗試變更環境變數
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a38cc4ca-56fc-4596-a67c-ec4a663f85f8/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172364533-377c9e2b-3900-4b01-a693-30985dd32ac4.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c682b4d5-5299-4c7e-aa1c-4ab3e18e50d6/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172364601-496b916b-16f7-4464-b584-c87ed9ef34e2.png)
 
 參考網址：[https://www.kjnotes.com/devtools/35](https://www.kjnotes.com/devtools/35)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b9d0d0e6-6c29-482a-aebc-adbb377d4491/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172364641-02c82dad-6bf0-4a1b-9b48-525e03a51d67.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67442fb6-1b3e-497b-a455-5b1dc24f4db4/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172364682-b2597812-f0a3-49ed-83ec-78f8c29555ac.png)
 
 經過多次嘗試還是無法安裝WebGoat QQ
 
@@ -129,15 +130,15 @@
 > **有**外洩會呈現**紅色**
 > 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f8809906-f8cd-4b88-89e6-1a33302122c4/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172364774-b7bd5e16-ceb4-4f9f-86bf-d581776b5249.png)
 
 好來，我的mail完但了...
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/00f60a82-2efb-4d8a-9bb8-ec152ad92d3a/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172364818-242882ce-b222-47ae-b0d5-3aefba6b7a5d.png)
 
 值得慶幸的是我的密碼沒事~
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/10f3ac33-bb42-4b49-bc68-0f5d155035f4/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172364888-41f88602-4f79-4fe4-b3cb-dcc7c2798024.png)
 
 我的電話號碼看起來應該是安全的~但有點疑慮是我常常會收到陌生簡訊，確定真的沒有外洩嗎？！
 
@@ -150,15 +151,15 @@
 
 按 URL 中的版本：
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fe49af12-75a2-4803-9c89-3fd23781383c/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172366381-f51cf276-ec12-4ce2-a48c-2d59cfaeed9a.png)
 
 通過 api-version 標頭：
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b1097bff-a0e3-4afc-8000-ba2458794fcf/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172366437-1782cb11-c2cd-4b95-b8d0-941bea231e50.png)
 
 通過內容協商：
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d4baac2e-bfcf-423c-894d-0c0b51e87e56/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172366497-3fbcb370-edef-47f8-843b-72d4800f75ba.png)
 
 ## ****獲取系統中所有被破壞的站點****
 
@@ -167,15 +168,15 @@
 
 按 URL 中的版本（可[單擊此處](https://haveibeenpwned.com/api/v2/breaches)進行測試）：
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/635c3a40-dcfa-4a3e-ae2e-9979665d6fdd/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172366550-f51d6c8b-9b80-4291-8a35-8b46fbc53781.png)
 
 通過 api-version 標頭：
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/41a385a9-1aa1-4ba2-b363-cb431d924aac/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172366591-be5391de-f4fc-457c-ba23-fbbae173f814.png)
 
 通過內容協商：
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7e4ad5c-1afb-4cc7-876a-051a89f25877/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172366632-61a49edf-3dde-4481-8d38-96a9e2348b32.png)
 
 ## ****獲取單個違規站點****
 
@@ -184,15 +185,15 @@
 
 按 URL 中的版本（可[單擊此處](https://haveibeenpwned.com/api/v2/dataclasses)進行測試）：
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ce29f702-9c7a-4745-8f9d-f59e2076e577/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172366675-f1034d7c-d71b-4c4d-a6a1-618fa0471947.png)
 
 通過 api-version 標頭：
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dc0c5234-9f9b-49e5-b1f9-b3cba335aaf0/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172366732-c6203b8c-d708-462b-88a8-58cd2ee64197.png)
 
 通過內容協商：
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1758429-7f3e-4111-9517-494ea3b3e70f/Untitled.png)
+![image](https://user-images.githubusercontent.com/105283235/172366765-0ca20aec-b8f3-4148-9074-da74fc0dd63e.png)
 
 # 五、心得
 
